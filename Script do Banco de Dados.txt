@@ -1,0 +1,23 @@
+create database cadastro;
+
+use cadastro;
+
+create table funcionario(
+matricula int (3) primary key,
+nome varchar(100),
+idade int(3)
+);
+
+create table gerente(
+matricula int (3) primary key,
+nome varchar(100),
+idade int(3),
+departamento varchar(100)
+);
+
+create table operador(
+matricula int (3) primary key,
+nome varchar(100),
+idade int(3),
+funcao varchar(100)
+);
